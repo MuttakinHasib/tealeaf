@@ -1,5 +1,7 @@
+import { Container } from "../components";
+
 const HomePage = () => {
-  return <h1>hi</h1>;
+  return <Container className="my-12" />;
 };
 
 export default HomePage;
